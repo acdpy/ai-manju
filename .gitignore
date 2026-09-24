@@ -1,0 +1,20 @@
+# ---- 运行时 / 本地数据（不上传） ----
+server.pid
+
+# 含 API Key 与个人配置的应用本地数据
+modelConfig.json
+projects.json
+settings.json
+
+# 本地生成的漫剧项目产物（图片/音视频，体积大）
+projects/
+
+# ---- 内置工具链（体积大 / 平台相关，需自行准备，见 README） ----
+tools/
+
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+node_modules/
